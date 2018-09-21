@@ -14,11 +14,13 @@ Mozcの[variant_rule.txt](https://github.com/google/mozc/blob/master/src/data/si
 漢字1\t漢字2
 ```
 
-漢字1は、[variant_rule.txt](https://github.com/google/mozc/blob/master/src/data/single_kanji/variant_rule.txt)において
+`漢字1`は、[variant_rule.txt](https://github.com/google/mozc/blob/master/src/data/single_kanji/variant_rule.txt)において
 
 > more popular
 
 と記述がある側の漢字です。
+
+`漢字2`が複数存在する場合は`/`で連結したものを記述します。
 
 ## itaiji_removed.txt
 
